@@ -29,3 +29,7 @@ TECHNOLIGIES
 
 -Postman for testing
 
+ENTITY 
+
+  -Topics ans Courses Entity, where One topic can one or more courses 
+
