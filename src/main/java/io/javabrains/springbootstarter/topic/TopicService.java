@@ -65,10 +65,4 @@ public class TopicService {
 
 	}
 
-//	public List<Topic> getTopicPagination(int page, int size) {
-//		Pageable pageable = PageRequest.of(page, size);
-//		List<Topic> list = topicRepository.findAll(pageable).getContent();
-//		return list;
-//
-//	}
 }
