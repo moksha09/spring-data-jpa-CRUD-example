@@ -31,5 +31,5 @@ TECHNOLIGIES
 
 ENTITY 
 
-  -Topics ans Courses Entity, where One topic can one or more courses 
+  -Topics ans Courses Entity, where One topic can have one or more courses 
 
