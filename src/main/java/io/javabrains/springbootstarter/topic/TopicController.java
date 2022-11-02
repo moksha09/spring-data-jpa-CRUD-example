@@ -48,8 +48,4 @@ public class TopicController {
 	public String deleteTopic(@PathVariable int topicId) {
 		return topicService.deleteTopic(topicId);
 	}
-//	@RequestMapping("/topics/pagination")
-//	public List<Topic> getTopicPagination(@RequestParam(defaultValue=0,required = false) int page, @RequestParam(defaultValue=10,required = false) int size) {
-//		return topicService.getTopicPagination(page, size);
-//	}
 }
