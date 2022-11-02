@@ -26,10 +26,7 @@ public class Topic {
 
 	@Column(name = "DESCRIPTION")
 	private String description;
-
-//	@OneToMany(cascade = CascadeType.ALL)
-//    private List<Course> course;
-//	
+	
 	public Topic() {
 
 	}
@@ -63,12 +60,6 @@ public class Topic {
 	public void setDescription(String description) {
 		this.description = description;
 	}
-//	public List<Course> getCourse() {
-//        return course;
-//    }
-//
-//    public void setCourses(List<Course> course) {
-//        this.course = course;
-//    }
+
 
 }
